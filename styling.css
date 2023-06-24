@@ -1,0 +1,61 @@
+:root {
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+    
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .head {
+    height: 200px;
+    width: 200px;
+    background-color: grey; 
+  }
+  
+  .eyewrapper {
+    display: flex;
+    width: 200px;
+    height: 100px;
+  
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px
+  }
+  
+  #eyeOne {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  #eyeTwo {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  #mouthwrapper {
+    display: flex;
+    width: 200px;
+    height: 80px;
+  
+    justify-content: center;
+  }
+  
+  #mouth {
+    height:20px;
+    width: 100PX;
+    background-color:black
+  }
+  
+  .rectangle {
+    height: 200px;
+    width: 100px;
+    background-color: grey;
+  }
