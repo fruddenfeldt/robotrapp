@@ -42,10 +42,26 @@
   
   #mouthwrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 200px;
     height: 80px;
-  
-    justify-content: center;
+    justify-content: flex-start;
+    
+  }
+
+  #topMouth {
+    display: flex;
+    gap: 60px;
+    width: 100px;
+    height: 30px;
+    
+  }
+
+  .leftMouth {
+    width: 20px;
+    height: 30px;
+    background-color: black;
   }
   
   #mouth {
