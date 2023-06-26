@@ -70,8 +70,47 @@
     background-color:black
   }
   
-  .rectangle {
-    height: 200px;
+  .neck {
+    height: 100px;
     width: 100px;
     background-color: grey;
   }
+
+  .upperBodyWrapper {
+    display: flex;
+  }
+
+  .body {
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+  }
+
+  .arm {
+    height: 100px;
+    width: 200px;
+    background-color: grey;
+  }
+
+  #lowerBodyWrapper {
+    display: flex;
+    gap: 50px;
+  }
+
+  .leg {
+    height: 150px;
+    width: 50px;
+    background-color: grey;
+  }
+
+  #feetWrapper  {
+    display: flex;
+    gap: 50px;
+  }
+
+  .foot {
+    height: 50px;
+    width: 100px;
+    background-color: grey;
+  }
+  
