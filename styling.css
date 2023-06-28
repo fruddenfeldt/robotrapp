@@ -78,23 +78,55 @@
 
   .upperBodyWrapper {
     display: flex;
+    border: solid red 2px;
   }
+  
+  .leftHandWrapper {
+    display: flex;
+    justify-content: end;
+    width: 150px;
+    height: 100px;
+    border: solid green 2px;
+  }
+
+  .rightHandWrapper {
+    display: flex;
+    justify-content: start;
+    width: 150px;
+    height: 100px;
+    border: solid green 2px;
+  }
+
+    .leftPalm {
+      height: 100px;
+      width: 80px;
+      background-color: grey;
+    }
+
+    .rightPalm {
+      height: 100px;
+      width: 80px;
+      background-color: grey;
+    }
 
   .body {
     height: 300px;
     width: 200px;
     background-color: grey;
+    
   }
 
   .arm {
-    height: 100px;
+    height: 70px;
     width: 200px;
+    margin-top: 15px;
     background-color: grey;
   }
 
   #lowerBodyWrapper {
     display: flex;
     gap: 50px;
+    
   }
 
   .leg {
