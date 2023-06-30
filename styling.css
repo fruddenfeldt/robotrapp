@@ -71,27 +71,37 @@
   }
   
   .neck {
-    height: 100px;
+    height: 60px;
     width: 100px;
     background-color: grey;
   }
 
   .upperBodyWrapper {
     display: flex;
-
   }
   
+  .arm {
+    height: 70px;
+    width: 200px;
+    margin-top: 30px;
+    background-color: grey;
+    
+  }
+
   .leftHandWrapper {
     display: flex;
     justify-content: end;
+    margin-top: 18px;
     width: 150px;
     height: 100px;
+    
     
   }
 
   .rightHandWrapper {
     display: flex;
     justify-content: start;
+    margin-top: 18px;
     width: 150px;
     height: 100px;
     
@@ -100,12 +110,14 @@
     .leftPalm {
       height: 100px;
       width: 80px;
+      border-radius: 5px;
       background-color: grey;
     }
 
     .rightPalm {
       height: 100px;
       width: 80px;
+      border-radius: 5px;
       background-color: grey;
     }
 
@@ -119,28 +131,25 @@
       background-color: grey;
       height: 10px;
       width: 50px;
+      border-radius: 1px;
     }
 
     .thumb {
       background-color: grey;
+      border-radius: 3px;
+      margin-top: 3px;
       height: 15px;
       width: 50px;
     }
     
 
   .body {
-    height: 300px;
+    height: 250px;
     width: 200px;
     background-color: grey;
     
   }
 
-  .arm {
-    height: 70px;
-    width: 200px;
-    margin-top: 15px;
-    background-color: grey;
-  }
 
   #lowerBodyWrapper {
     display: flex;
@@ -149,7 +158,7 @@
   }
 
   .leg {
-    height: 150px;
+    height: 120px;
     width: 50px;
     background-color: grey;
   }
@@ -165,3 +174,8 @@
     background-color: grey;
   }
   
+#floor {
+  height: 100vw;
+  width: 100vw;
+  background-color: darkblue;
+}
