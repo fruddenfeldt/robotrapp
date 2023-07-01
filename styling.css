@@ -15,6 +15,7 @@
   .head {
     height: 200px;
     width: 200px;
+    border-radius: 10px;
     background-color: grey; 
   }
   
@@ -29,14 +30,16 @@
   }
   
   #eyeOne {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
     background-color: black;
   }
   
   #eyeTwo {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
     background-color: black;
   }
   
@@ -82,7 +85,7 @@
   
   .arm {
     height: 70px;
-    width: 200px;
+    width: 150px;
     margin-top: 30px;
     background-color: grey;
     
@@ -146,6 +149,7 @@
   .body {
     height: 250px;
     width: 200px;
+    border-radius: 10px;
     background-color: grey;
     
   }
@@ -171,6 +175,7 @@
   .foot {
     height: 50px;
     width: 100px;
+    border-bottom-right-radius: 10px;
     background-color: grey;
   }
   
