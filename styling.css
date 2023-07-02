@@ -4,19 +4,25 @@
     align-content: center;
     
   }
+
+  .head .neck .body .arm .rightPalm .leftPalm .leg .foot {
+     
+  }
   
   .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
   }
   
   .head {
     height: 200px;
     width: 200px;
     border-radius: 10px;
-    background-color: grey; 
+    background-color: blue
+
   }
   
   .eyewrapper {
@@ -76,7 +82,7 @@
   .neck {
     height: 60px;
     width: 100px;
-    background-color: grey;
+    background-color: blue
   }
 
   .upperBodyWrapper {
@@ -87,7 +93,7 @@
     height: 70px;
     width: 150px;
     margin-top: 30px;
-    background-color: grey;
+    background-color: blue
     
   }
 
@@ -114,14 +120,14 @@
       height: 100px;
       width: 80px;
       border-radius: 5px;
-      background-color: grey;
+      background-color: rgb(10,242,45)
     }
 
     .rightPalm {
       height: 100px;
       width: 80px;
       border-radius: 5px;
-      background-color: grey;
+      background-color: rgb(10,242,45)
     }
 
     .fingerWrapper {
@@ -131,7 +137,7 @@
     }
 
     .finger {
-      background-color: grey;
+      
       height: 10px;
       width: 50px;
       border-radius: 1px;
@@ -150,7 +156,7 @@
     height: 250px;
     width: 200px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: blue
     
   }
 
@@ -164,7 +170,7 @@
   .leg {
     height: 120px;
     width: 50px;
-    background-color: grey;
+    background-color: blue
   }
 
   #feetWrapper  {
@@ -175,8 +181,8 @@
   .foot {
     height: 50px;
     width: 100px;
-    border-bottom-right-radius: 10px;
-    background-color: grey;
+    background-color: rgb(10,242,45)
+
   }
   
 #floor {
